@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex items-center justify-center p-20 md:pl-16 transition-colors duration-500"
+      className="flex items-center justify-center p-10 md:pl-16 transition-colors duration-500"
     >
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left side: Text with animation */}
