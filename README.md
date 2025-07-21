@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Raj Singhaniya's Developer Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio website, built using Next.js 14, TypeScript, Tailwind CSS, and ShadCN UI. Explore my work, connect with me, and get a glimpse of my skills and projects.
 
-First, run the development server:
+
+## 🚀 Live Preview 👉 [View Live](https://raj-singhaniya.vercel.app)
+
+
+---
+
+## 🧾 Description
+
+A sleek, modern, and responsive developer portfolio showcasing my work, skills, and online presence. Features glitch effects, scroll animations, interactive counters, and smooth UI transitions—all optimized for dark mode.
+
+## 📁 Project Overview
+
+This is a modern, fully responsive, and animated developer portfolio built with:
+
+* **Next.js 15**
+* **TypeScript**
+* **Tailwind CSS**
+* **ShadCN/UI**
+* **Mvpblocks/UI**
+* **Framer Motion** (animations)
+* **React Glitch Effect** (text glitch effect)
+* **React CountUp** (animated counters)
+* **Lucide React Icons**
+* **AOS (Animate On Scroll)**
+
+
+---
+
+## ✨ Features
+
+* ⚡ Lightning-fast performance (Static Site Generation)
+* 🎨 Clean, responsive design with Tailwind CSS
+* 🧠 About section with glitch text and skill badges
+* 🧮 Animated counters for experience, projects, etc.
+* ✨ Scroll animations using AOS
+* 💡 Dynamic routing with Next.js App Router
+* 📱 Fully mobile-responsive
+* 🌐 SEO-friendly with proper metadata and OG/Twitter tags
+
+---
+
+## 🧑‍💻 Technologies Used
+
+| Tech                    | Usage                                |
+| ----------------------- | ------------------------------------ |
+| **Next.js 15**          | Framework for building the app       |
+| **TypeScript**          | Type safety and developer experience |
+| **Tailwind CSS**        | Styling and layout                   |
+| **ShadCN/UI**           | Component library                    |
+| **Mvpblocks/UI**        | Component library                    |
+| **Framer Motion**       | Animation library                    |
+| **React Glitch Effect** | Glitch animation on text             |
+| **React CountUp**       | Number counter animation             |
+| **AOS**                 | Scroll animations                    |
+| **Lucide Icons**        | Icon set                             |
+
+---
+
+## 🧾 Pages Overview
+
+* `/` – Home: Hero section with intro, glitch effect, call-to-action
+* `/about` – About: Skills, counters, badges, profile image ,Tech Stack
+* `/projects` – Projects: Showcase your best works
+* `/Contact` – Contact section for Contact Me
+
+---
+
+## 🚀 Setup and Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repository
+https://github.com/raj-0508/raj_singhaniya.git
+
+# Go to the project folder
+cd raj_singhaniya
+
+# Install dependencies with pnpm
+pnpm install
+
+# Run the development server
 pnpm dev
-# or
-bun dev
+
+# Or build for production
+pnpm build && pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> ⚠️ Make sure you're using `pnpm` instead of `npm` to avoid lockfile conflicts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Deployment
 
-## Learn More
+This portfolio is deployed on **Vercel** using GitHub integration:
 
-To learn more about Next.js, take a look at the following resources:
+* Every push to `main` triggers a redeploy
+* Uses automatic SSG for performance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 Live: [https://raj-singhaniya.vercel.app](https://raj-singhaniya.vercel.app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📸 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Desktop View                                 | Mobile View                                |
+| -------------------------------------------- | ------------------------------------------ |
+| ![desktop](./public/screenshots/desktop.png) | ![mobile](./public/screenshots/mobile.png) |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Future Improvements
+
+* Add a contact form with EmailJS or Appwrite
+* Add blog system with MDX or CMS integration
+* Include more animated transitions
+* Improve accessibility and SEO further
+
+---
+
+## 🙌 Acknowledgements
+
+* Thanks to the open-source community
+* Inspired by modern portfolio trends and animation showcases
+
+---
+
+## 📬 Contact
+
+* 📧 Email: [rajsinghaniya0508@gmail.com](mailto:rajsinghaniya0508@gmail.com)
+
+---
+
+> Built with ❤️ by Raj Singhaniya
