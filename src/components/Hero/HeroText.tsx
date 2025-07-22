@@ -1,5 +1,11 @@
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
+import { Quantico } from "next/font/google";
+const quantico = Quantico({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-quantico",
+});
 
 const HeroText = () => {
   const words = [
@@ -15,7 +21,9 @@ const HeroText = () => {
     visible: { opacity: 1, x: 0 },
   };
   return (
-    <div className="z-10 mt-20 text-center md:mt-40 md:text-left bg-clip-text max-w-7xl w-full mx-auto px-8">
+    <div
+      className={`z-10 mt-20 text-center md:mt-40 md:text-left bg-clip-text max-w-7xl w-full mx-auto px-8 ${quantico.className}`}
+    >
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
         {/* <motion.h1
