@@ -14,7 +14,7 @@ const skills = [
   { name: "Redux", ext: "svg" },
   { name: "Vite", ext: "png" },
   { name: "NodeJs", ext: "svg" },
-  { name: "Next.js", ext: "png" },
+  { name: "NextJs", ext: "png" },
   { name: "Git", ext: "svg" },
   { name: "Github", ext: "svg" },
   { name: "Shadcn-ui", ext: "svg" },
