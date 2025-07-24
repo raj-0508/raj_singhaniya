@@ -52,7 +52,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Next.js",
-        path: "/stack/Next.JS.png",
+        path: "/stack/NextJs.png",
       },
       {
         id: 3,
