@@ -46,7 +46,7 @@ export default function FooterGlow() {
         </div>
         <nav>
           <div className="flex w-full flex-col gap-9 md:gap-14 lg:gap-36 text-center md:w-auto md:flex-row md:justify-end md:text-left">
-            <div className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose-400">
+            {/* <div className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose-400">
               <a href="#about">About</a>
             </div>
             <div className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose-400">
@@ -54,7 +54,7 @@ export default function FooterGlow() {
             </div>
             <div className="mb-3 text-xs font-semibold uppercase tracking-widest text-rose-400">
               <a href="#contact">Contact</a>
-            </div>
+            </div> */}
           </div>
           <div className="w-full flex items-center justify-center">
             <div className="mt-10 flex gap-5 text-rose-400">
