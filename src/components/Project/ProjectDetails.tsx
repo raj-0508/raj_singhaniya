@@ -29,7 +29,7 @@ const ProjectDetails = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
-        className="relative max-w-2xl rounded-xl bg-[radial-gradient(at_88%_40%,#181925_0,transparent_85%),radial-gradient(at_49%_30%,#181925_0,transparent_85%),radial-gradient(at_14%_26%,#181925_0,transparent_85%),radial-gradient(at_0%_64%,#015c6e_0,transparent_85%),radial-gradient(at_41%_94%,#00b7e9_0,transparent_85%),radial-gradient(at_100%_99%,#103a42_0,transparent_85%)] p-6 shadow-[0px_-16px_24px_0px_rgba(255,255,255,0.25)_inset]"
+        className="relative max-w-2xl rounded-xl bg-[radial-gradient(at_88%_40%,#181925_0,transparent_85%),radial-gradient(at_49%_30%,#181925_0,transparent_85%),radial-gradient(at_14%_26%,#181925_0,transparent_85%),radial-gradient(at_0%_64%,#9f1239_0,transparent_85%),radial-gradient(at_41%_94%,#f43f5e_0,transparent_85%),radial-gradient(at_100%_99%,#881337_0,transparent_85%)] p-6 shadow-[0px_-16px_24px_0px_rgba(255,255,255,0.25)_inset]"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
       >
@@ -77,7 +77,7 @@ const ProjectDetails = ({
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 text-white font-medium shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+              className="inline-flex items-center gap-1 px-4 py-2 rounded-3xl bg-rose-500 text-white font-medium shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
             >
               View Live
               <Image
