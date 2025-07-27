@@ -25,7 +25,7 @@ const HeroText = () => {
       className={`z-10 mt-20 text-center md:mt-40 md:text-left bg-clip-text max-w-7xl w-full mx-auto px-8 ${quantico.className}`}
     >
       {/* Desktop View */}
-      <div className="flex-col hidden md:flex c-space">
+      <div className="flex-col hidden md:flex c-space text-white">
         {/* <motion.h1
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-900 via-red-700 to-red-500 tracking-tight text-center"
           variants={variants}
@@ -44,7 +44,7 @@ const HeroText = () => {
           />
         </motion.h1> */}
         <motion.h1
-          className="text-4xl font-medium text-transparent bg-gradient-to-r from-yellow-400 via-orange-950 to-pink-500 bg-clip-text"
+          className="text-4xl font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -54,7 +54,7 @@ const HeroText = () => {
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
-            className="text-5xl font-semibold text-transparent bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text"
+            className="text-5xl font-semibold"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -70,11 +70,11 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-extrabold text-7xl text-pink-500 "
+              className="font-extrabold text-7xl"
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-medium text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text"
+            className="text-4xl font-medium"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -85,9 +85,9 @@ const HeroText = () => {
         </div>
       </div>
       {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+      <div className="flex- flex-col space-y-6 md:hidden text-white">
         <motion.p
-          className="text-4xl font-medium text-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text"
+          className="text-4xl font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -97,7 +97,7 @@ const HeroText = () => {
         </motion.p>
         <div>
           <motion.p
-            className="text-5xl font-semibold text-transparent bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 bg-clip-text"
+            className="text-5xl font-semibold"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -106,7 +106,7 @@ const HeroText = () => {
             Frontend Developer
           </motion.p>
           <motion.p
-            className="text-5xl font-bold text-transparent bg-gradient-to-r from-lime-400 via-emerald-400 to-cyan-400 bg-clip-text"
+            className="text-5xl font-bold"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -122,11 +122,11 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-extrabold text-7xl text-rose-500 "
+              className="font-extrabold text-7xl"
             />
           </motion.div>
           <motion.p
-            className="text-4xl font-semibold text-transparent bg-gradient-to-r from-blue-700 via-sky-500 to-cyan-400 bg-clip-text"
+            className="text-4xl font-semibold"
             variants={variants}
             initial="hidden"
             animate="visible"
