@@ -21,8 +21,8 @@ const Projects = () => {
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing max-w-7xl mx-auto py-20"
     >
-      <h2 className="text-heading inline-block bg-gradient-to-r from-rose-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
-        My Selected Projects
+      <h2 className="text-heading inline-block">
+        My Projects
       </h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
       {myProjects.map((project) => (
@@ -48,7 +48,7 @@ const Projects = () => {
         href="https://github.com/raj-0508"
         target="_blank"
         rel="noopener noreferrer"
-        className="block w-fit mx-auto mt-8 text-center text-lg font-semibold text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-5 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+        className="block w-fit mx-auto mt-8 text-center text-lg font-semibold text-white bg-rose-500 px-5 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
       >
         🚀 To See All My Projects 👉 Click Me 👈
       </a>
