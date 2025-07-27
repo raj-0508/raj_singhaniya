@@ -45,7 +45,7 @@ const Project: React.FC<ProjectProps> = ({
         </div>
         <button
           onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 cursor-pointer hover-animation px-3 py-2 rounded-lg bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 text-white font-medium shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg"
+          className="flex items-center gap-1 cursor-pointer hover-animation px-3 py-2 rounded-3xl bg-rose-500 text-white font-medium shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg"
         >
           Read More
           <Image
