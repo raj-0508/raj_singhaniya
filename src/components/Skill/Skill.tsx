@@ -36,14 +36,14 @@ const Skills = () => {
       <div className=" gap-10 px-8 py-24 max-w-screen-xl mx-auto relative z-10 ">
         {/* Section Heading */}
         <motion.h2
-          className="text-center mb-20 text-5xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-rose-900 via-pink-500 to-blue-500 bg-clip-text text-transparent drop-shadow-md tracking-tight"
+          className="text-center mb-20 text-5xl md:text-6xl font-extrabold leading-tight"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
           <span className="block sm:inline">My</span>{" "}
-          <span className="inline-block bg-gradient-to-r from-rose-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+          <span className="inline-block">
             Tech Stack
           </span>
         </motion.h2>
@@ -78,7 +78,7 @@ const Skills = () => {
                 height={64}
                 className="h-16 w-16 object-contain drop-shadow-lg"
               />
-              <span className="text-xs font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent uppercase tracking-wide">
+              <span className="text-xs font-semibold text-white">
                 {skill.name}
               </span>
             </motion.div>
