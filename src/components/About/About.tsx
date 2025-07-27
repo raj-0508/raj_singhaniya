@@ -18,7 +18,7 @@ export default function About() {
           viewport={{ once: true, amount: 0.2 }}
           className="space-y-6"
         >
-          <h2 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-rose-500 via-blue-950 to-blue-500 bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl font-extrabold">
             About Me
           </h2>
 
@@ -74,7 +74,7 @@ export default function About() {
         >
           <div className="relative w-fit">
             {/* Gradient Border Behind the Image */}
-            <div className="absolute inset-0 -z-10 rotate-6 rounded-xl bg-gradient-to-r from-rose-500  to-blue-500 blur-sm" />
+            <div className="absolute inset-0 -z-10 rotate-6 rounded-xl bg-primary/10" />
 
             {/* Actual Image */}
             <div className="relative w-72 h-96 rounded-xl overflow-hidden">
