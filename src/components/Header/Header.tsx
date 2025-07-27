@@ -124,11 +124,11 @@ export default function Header() {
               <DownloadBtn />
             </a>
 
-            <ThemeToggleButton
+            {/* <ThemeToggleButton
               showLabel
               variant="circle-blur"
               start="top-right"
-            />
+            /> */}
           </div>
 
           <button
@@ -167,13 +167,13 @@ export default function Header() {
                   <a href="/sample.png" download>
                     <DownloadBtn />
                   </a>
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <ThemeToggleButton
                       showLabel
                       variant="circle-blur"
                       start="top-right"
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </motion.div>
