@@ -67,7 +67,7 @@ const Navigation = () => {
               </button>
             ))}
 
-            <Link
+            <a
               href=""
               target="_blank"
               rel="noopener noreferrer"
@@ -78,7 +78,7 @@ const Navigation = () => {
               <div className="animate-bounce rounded-full bg-teal-400 hover:bg-green-500 p-1.5 text-white">
                 <MoveDown size={14} strokeWidth={3} />
               </div>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
