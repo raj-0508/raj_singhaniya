@@ -144,7 +144,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="fixed right-10 bottom-0 hidden lg:flex flex-col items-center space-y-6">
+      <div className="fixed right-10 bottom-0 hidden lg:flex flex-col items-center justify-center space-y-6">
         <Link
           href="mailto:rajsinghaniya0508@gmail.com"
           className="text-teal-400 hover:text-teal-700 transition-colors duration-300 writing-mode-vertical text-base font-mono tracking-widest hover:-translate-y-1 transform"
