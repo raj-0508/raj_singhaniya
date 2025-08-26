@@ -108,9 +108,9 @@ const Hero = () => {
       </div>
 
       {/* Decorative Contact Elements */}
-      <div className="fixed left-10 top-0 hidden lg:flex flex-col items-center gap-10">
+      <div className="fixed left-10 top-0 hidden lg:flex flex-col items-center gap-8">
         <div className="w-px h-48 bg-teal-400"></div>
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-8">
           {[
             {
               href: "https://github.com/raj-0508",
