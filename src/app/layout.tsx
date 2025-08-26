@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: "Raj Singhaniya – Frontend Developer",
   description:
     "Hi, I'm Raj Singhaniya – a passionate frontend developer crafting modern, responsive, and animated web experiences.",
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon.ico",
-  //   apple: "/logo.png",
-  // },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
