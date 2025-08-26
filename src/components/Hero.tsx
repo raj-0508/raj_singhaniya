@@ -108,9 +108,9 @@ const Hero = () => {
       </div>
 
       {/* Decorative Contact Elements */}
-      <div className="fixed left-10 top-0 hidden lg:flex flex-col items-center space-y-12">
+      <div className="fixed left-10 top-0 hidden lg:flex flex-col items-center gap-10">
         <div className="w-px h-48 bg-teal-400"></div>
-        <div className="flex flex-col space-y-8">
+        <div className="flex flex-col gap-10">
           {[
             {
               href: "https://github.com/raj-0508",
@@ -144,7 +144,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="fixed right-10 bottom-0 hidden lg:flex flex-col items-center space-y-8">
+      <div className="fixed right-10 bottom-0 hidden lg:flex flex-col items-center gap-8">
         <Link
           href="mailto:rajsinghaniya0508@gmail.com"
           className="text-teal-400 hover:text-teal-700 transition-colors duration-300 writing-mode-vertical text-base font-mono tracking-widest hover:-translate-y-1 transform"
